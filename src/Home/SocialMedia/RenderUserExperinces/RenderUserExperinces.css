@@ -1,0 +1,97 @@
+.User-Experinces {
+  background-color: rgba(255, 255, 255, 0.808);
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+}
+.User-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 27rem;
+}
+
+.User-Experinces img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15rem;
+}
+
+.User-thumbnail {
+  display: flex;
+  width: 100%;
+  gap: 2%;
+  align-items: center;
+  padding: 1%;
+}
+
+.shared-user-info {
+  border-style: groove;
+  height: 20rem;
+  border-radius: 4%;
+}
+
+.shared-user-info img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+}
+
+.shared-user-info video {
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+  /* display: flex; */
+}
+
+.User-button {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.User-button button {
+  width: 100%;
+  background-color: rgba(75, 70, 70, 0.192);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.User-button button:hover {
+  background-color: aliceblue;
+}
+
+.User-info-title {
+  padding: 0px;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.User-info-initial {
+  background-color: aquamarine;
+  padding: 1%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+@media (max-width: 508px) {
+  .User-Experinces {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .User-Experinces {
+    width: 75%;
+  }
+}

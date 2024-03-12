@@ -1,0 +1,65 @@
+.Center {
+  width: 105vh;
+}
+
+.Center-top {
+  width: 98%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+}
+.Center-top h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500;
+  height: fit-content;
+}
+
+.Center-top button {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #009dff;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 1% 2% 1% 2%;
+  cursor: pointer;
+  border: none;
+  font-size: medium;
+}
+
+.sidebar_icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sidebar_icon {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+@media (max-width: 878px) {
+  .Center {
+    margin-top: 10%;
+    margin-left: auto;
+    width: 100%;
+  }
+  .Center-top h1 {
+    font-size: large;
+  }
+}
+
+@media (max-width: 468px) {
+  .Center {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .Center-top h1 {
+    font-size: medium;
+  }
+}

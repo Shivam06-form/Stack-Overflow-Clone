@@ -1,0 +1,35 @@
+.view-answer-footer__1 {
+  width: 80%;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+
+
+.answer-form {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  justify-content: space-between;
+}
+
+.answer-form textarea {
+  width: 98%;
+  height: 60%;
+  font-size: larger;
+  color: rgb(16, 16, 17);
+  font-weight: 600;
+}
+
+.answer-form button {
+  width: fit-content;
+  padding: 1%;
+  background-color: skyblue;
+  color: whitesmoke;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}

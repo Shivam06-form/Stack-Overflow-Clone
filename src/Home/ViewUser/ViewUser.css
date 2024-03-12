@@ -1,0 +1,181 @@
+.ViewUser-container {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  /* justify-content: space-evenly; */
+  padding: 16px;
+  margin-top: 3%;
+  gap: 2%;
+}
+
+.ViewUser-container button {
+  height: fit-content;
+  margin-top: 5%;
+  background-color: #ffffff;
+  border-width: 1px;
+  font-weight: 500;
+  padding: 1%;
+  cursor: pointer;
+  width: 20%;
+}
+
+.ViewUser {
+  margin-top: 3.5%;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ViewUser-thumbnail {
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+  width: 50%;
+}
+
+.ViewUser__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 180px;
+  margin: auto;
+}
+
+.ViewUser-name {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.ViewUser-date {
+  font-size: large;
+}
+
+.ViewUser-thumbnail-initial {
+  background-color: rgb(218, 64, 210);
+  padding: 3rem;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.ViewUser h5 {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.edit-profile-btn {
+  padding: 8px 10px;
+  border: solid 1px #7e7e7e;
+  border-radius: 2px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.edit-profile-btn:hover {
+  background-color: #f5f9fc;
+}
+.edit-profile-title {
+  padding: 20px 0px;
+  border-bottom: solid 1px #dbd9d9;
+}
+.edit-profile-title-2 {
+  color: grey;
+  font-weight: 400;
+}
+.edit-profile-form {
+  padding: 20px;
+  border: solid 1px #dbd9d9;
+  border-radius: 5px;
+}
+.edit-profile-form label h3 {
+  margin: 0%;
+  padding: 3px 0px;
+}
+.edit-profile-form label p {
+  margin: 0%;
+  padding: 3px 0px;
+}
+.edit-profile-form label input,
+.edit-profile-form label textarea {
+  padding: 5px;
+  margin-bottom: 20px;
+  border: solid 1px #dbd9d9;
+  width: 50%;
+}
+
+.user-submit-btn {
+  padding: 14px 10px;
+  background-color: #0a95ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.user-submit-btn:hover {
+  background-color: #0074cc;
+}
+
+.user-cancel-btn {
+  padding: 14px 10px;
+  color: #0a95ff;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.view-user_icon {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .edit-profile-form label input,
+  .edit-profile-form label textarea {
+    width: 100%;
+  }
+
+  .view-user_icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .ViewUser-container button {
+    display: none;
+  }
+
+  .ViewUser-container {
+    width: auto;
+    padding: none;
+  }
+
+  .ViewUser {
+    width: auto;
+  }
+
+  .ViewUser-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #7e7e7e; */
+    gap: 10%;
+  }
+
+  /* .ViewUser-thumbnail-initial {
+    display: none;
+  } */
+
+  .ViewUser-thumbnail {
+    justify-content: space-between;
+    text-align: start;
+    flex-wrap: wrap;
+  }
+
+  .ViewUser-date {
+    width: fit-content;
+    background-color: #d8eeff;
+  }
+}

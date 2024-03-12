@@ -1,0 +1,15 @@
+.Home {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  /* justify-content: space-evenly; */
+  padding: 16px;
+  margin-top: 3%;
+  gap: 2%;
+}
+
+@media (max-width: 878px) {
+  .Home {
+    width: auto;
+  }
+}

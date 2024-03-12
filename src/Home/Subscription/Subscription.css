@@ -1,0 +1,70 @@
+.Sub {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  flex-direction: column;
+  /* padding: 16px; */
+  margin-top: 8%;
+  gap: 2%;
+  position: relative;
+}
+
+.Sub h4 {
+  color: rgb(90, 90, 90);
+}
+.Sub h2 {
+  color: rgb(61, 47, 47);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sub-list {
+  border-style: groove;
+  width: 15rem;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.sub-list summary {
+  font-weight: 400;
+}
+
+.sub-list button {
+  background-color: transparent;
+  padding: 2%;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: larger;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.sub-list button:hover {
+  background-color: rgb(145, 143, 143);
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.sub-list-container {
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .sub-list {
+    width: 85%;
+    margin: auto;
+  }
+  .sub-list-container {
+    width: fit-content;
+  }
+  .Sub{
+    margin-top: 10%;
+  }
+}
